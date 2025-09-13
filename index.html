@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio - Gestão de Mídias Sociais</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background-color: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            background: linear-gradient(135deg, #833AB4 0%, #FD1D1D 50%, #FCB045 100%);
+            color: white;
+            padding: 40px 0;
+            text-align: center;
+            border-radius: 0 0 20px 20px;
+            margin-bottom: 30px;
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        
+        h2 {
+            font-size: 1.8rem;
+            margin: 25px 0 15px;
+            color: #833AB4;
+        }
+        
+        h3 {
+            font-size: 1.3rem;
+            margin: 20px 0 10px;
+            color: #FD1D1D;
+        }
+        
+        .profile {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+        
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid white;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+        
+        .portfolio-item {
+            background: white;
+            border-radius: 15px;
+            padding: 25px;
+            margin-bottom: 30px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+        
+        .portfolio-item iframe {
+            width: 100%;
+            height: 500px;
+            border: none;
+            border-radius: 10px;
+            margin: 15px 0;
+        }
+        
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+        
+        .stat-card {
+            background: linear-gradient(135deg, #833AB4 0%, #FD1D1D 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        
+        .stat-number {
+            font-size: 2rem;
+            font-weight: bold;
+        }
+        
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+        
+        .service-card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        
+        .service-icon {
+            font-size: 2.5rem;
+            margin-bottom: 15px;
+            color: #833AB4;
+        }
+        
+        .contact {
+            background: linear-gradient(135deg, #833AB4 0%, #FD1D1D 100%);
+            color: white;
+            padding: 40px;
+            border-radius: 15px;
+            text-align: center;
+            margin-top: 30px;
+        }
+        
+        .btn {
+            display: inline-block;
+            background: white;
+            color: #833AB4;
+            padding: 12px 25px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 15px;
+            transition: transform 0.3s;
+        }
+        
+        .btn:hover {
+            transform: translateY(-3px);
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            padding: 20px;
+            color: #777;
+        }
+        
+        @media (max-width: 768px) {
+            .stats, .services {
+                grid-template-columns: 1fr;
+            }
+            
+            .portfolio-item iframe {
+                height: 400px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Gestão de Mídias Sociais</h1>
+            <p>Transformando presenças digitais em resultados reais</p>
+        </div>
+    </header>
+    
+    <div class="container">
+        <div class="profile">
+            <h2>Meu Trabalho</h2>
+            <p>Confira abaixo um exemplo do meu trabalho em gerenciamento de redes sociais</p>
+        </div>
+        
+        <div class="portfolio-item">
+            <h2>Case de Sucesso: Alternativa Assistência Técnica</h2>
+            <p>Perfil do Instagram que gerencio atualmente, demonstrando minha abordagem estratégica para redes sociais.</p>
+            
+            <!-- Instagram Embed -->
+            <iframe src="https://www.instagram.com/alternativaassistenciatecnica/embed" allowtransparency="true" frameborder="0"></iframe>
+            
+            <div class="stats">
+                <div class="stat-card">
+                    <div class="stat-number">3x</div>
+                    <p>Aumento no engajamento</p>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">+120%</div>
+                    <p>Crescimento de seguidores</p>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">15%</div>
+                    <p>Aumento no tráfego para o site</p>
+                </div>
+            </div>
+            
+            <h3>Estratégias Implementadas:</h3>
+            <ul>
+                <li>Planejamento de conteúdo consistente e relevante</li>
+                <li>Otimização de legendas e hashtags</li>
+                <li>Interação ativa com a comunidade</li>
+                <li>Stories estratégicos para aumento do engajamento</li>
+                <li>Análise constante de métricas e ajustes na estratégia</li>
+            </ul>
+        </div>
+        
+        <h2>Serviços Oferecidos</h2>
+        <div class="services">
+            <div class="service-card">
+                <div class="service-icon">📱</div>
+                <h3>Gestão do Instagram</h3>
+                <p>Posts estratégicos, stories, interação com seguidores e análise de resultados</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">💻</div>
+                <h3>Desenvolvimento Web</h3>
+                <p>Criação e manutenção de sites com foco em conversão e experiência do usuário</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">📊</div>
+                <h3>Relatórios de Performance</h3>
+                <p>Análises mensais com métricas e insights para melhorar seus resultados</p>
+            </div>
+        </div>
+        
+        <div class="contact">
+            <h2>Vamos transformar sua presença digital?</h2>
+            <p>Entre em contato para discutirmos como posso ajudar seu negócio a crescer nas redes sociais</p>
+            <a href="https://wa.me/5511999999999?text=Olá! Gostaria de saber mais sobre seus serviços" class="btn">Fale comigo pelo WhatsApp</a>
+        </div>
+    </div>
+    
+    <footer>
+        <div class="container">
+            <p>© 2024 - Meu Portfólio de Gestão de Mídias Sociais</p>
+        </div>
+    </footer>
+</body>
+</html>
